@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+		{% if messages %}
+<ul class="col-md-6">
+    {% for message in messages %}
+    <li{% if message.tags %} class="alert alert-success" style="color:green;margin-left:50%" {% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+		<form method='POST' action=''> 
+			
+		</form>
+	
+<form action="" method="post" onsubmit="">{% csrf_token %}
+		<p>{{form.as_p}}</p>
+
+		<p><input type="submit" class="btn btn-block btn-success"  value="submit"></p>
+		<p><input name="" value="Enter your e-mail" type="text" id=""/></p>
+		
+		<p><input name="" value="Enter your complaint" type="text" id=""/></p>
+		<p><input type="button" value="Send complaint"/></p>
+
+	</form>
+{% endblock%}
