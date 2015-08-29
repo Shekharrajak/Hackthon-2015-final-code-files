@@ -34,4 +34,4 @@ paid
 SMTP credential and SMS sender/reciever API
  work better
  
- ![Screenshot]("https://raw.githubusercontent.com/Shekharrajak/Hackthon-2015-Presentation/gh-pages/Screenshot%20from%202015-08-23%2016%3A05%3A38.png")
+ ![Screenshot](https://raw.githubusercontent.com/Shekharrajak/Hackthon-2015-Presentation/gh-pages/Screenshot%20from%202015-08-23%2016%3A05%3A38.png)
